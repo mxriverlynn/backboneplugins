@@ -1,0 +1,61 @@
+.jumbotron {
+  background-color: #fff;
+  margin-bottom: 0px;
+  padding-bottom: 2em;
+}
+
+.jumbotron h1 {
+  font-size: 2.6em;
+}
+
+.introduction {
+  margin-top: 3em;
+}
+
+.introduction .check-list {
+  margin: 4em 5em;
+}
+
+.introduction .get-the-book {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.introduction .get-the-book sub {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.4em;
+  font-weight: normal;
+}
+
+.section-two .jumbotron {
+  margin-bottom: 3em;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.benefits .benefit h3 {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.benefits .benefit p {
+  text-align: justify;
+}
+
+footer.navbar {
+  margin-top: 3em;
+  margin-bottom: 0px;
+}
+
+.author-bio {
+  margin: 0em 3em 1em 3em;
+  text-align: center;
+}
+
+.author-bio img {
+  margin-bottom: 1em;
+}

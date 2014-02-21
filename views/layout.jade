@@ -1,6 +1,58 @@
 doctype html
-html
+html(lang="en")
   head
-    title Scaling Backbone.js Apps The Smart Way :: Building Backbone Plugins
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="Stop wasting time and money writing boilerplate code in Backbone.js. Learn how to extend it through the lessons of MarionetteJS and other add-ons and plugins built by Derick Bailey, Backbone.js expert!")
+    meta(name="author", content="Derick Bailey, Jerome Gravel-Niquet")
+    meta(name="google-site-verification", content="gNi6P_8z8POcIJqjxueglgFjJuMTa-RXgWUEHUji1-k")
+
+    link(rel="shortcut icon", href="")
+
+    title Building Backbone Plugins: Extending Backbone The Smart, Scalable Way
+
+    link(href="/assets/bootstrap/css/bootstrap.min.css", rel="stylesheet")
+    link(href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", rel="stylesheet")
+    link(href="/assets/backboneplugins.css", rel="stylesheet")
+    block style
   body
+    header.navbar.navbar-default(role="navigation")
+      .container
+        .navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="/") Building Backbone Plugins
+        .collapse.navbar-collapse
+          navigation
+            ul.nav.navbar-nav
+              li
+                a(href="#content") Content
+              li
+                a(href="#history") History
+              li
+                a(href="#reviews") Reviews
+              li
+                a(href="#buynow") Buy Now
+
     block content
+
+    footer.navbar.navbar-default
+      .container
+        ul.nav.navbar-nav.navbar-right
+          li.active
+            a(href="http://mutedsolutions.com", target="_blank") Copyright &copy;2014 Muted Solutions, LLC. All Rights Reserved.
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+    script(src="/assets/bootstrap/js/bootstrap.min.js")
+    block javascript
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-20471045-5', 'backboneplugins.com');
+      ga('send', 'pageview');
