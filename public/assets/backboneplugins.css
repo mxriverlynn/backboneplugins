@@ -1,15 +1,28 @@
+a.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar-nav li.buynow {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 .jumbotron {
   background-color: #fff;
-  margin-bottom: 0px;
-  padding-bottom: 2em;
+  margin-top: 7em;
+  margin-bottom: 2em;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.section-one .jumbotron {
+  margin-top: 0em;
+  margin-bottom: 4em;
 }
 
 .jumbotron h1 {
   font-size: 2.6em;
-}
-
-.introduction {
-  margin-top: 3em;
 }
 
 .introduction .check-list {
@@ -30,12 +43,6 @@
   font-weight: normal;
 }
 
-.section-two .jumbotron {
-  margin-bottom: 3em;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 .benefits .benefit h3 {
   text-align: center;
   font-size: 1.25em;
@@ -46,11 +53,6 @@
   text-align: justify;
 }
 
-footer.navbar {
-  margin-top: 3em;
-  margin-bottom: 0px;
-}
-
 .author-bio {
   margin: 0em 3em 1em 3em;
   text-align: center;
@@ -58,4 +60,27 @@ footer.navbar {
 
 .author-bio img {
   margin-bottom: 1em;
+}
+
+.quote {
+  margin-bottom: 2em;
+}
+
+.quote .quote-title {
+  font-size: 1.75em; 
+  font-weight: bold;
+}
+
+.quote .quote-body {
+  font-size: 1.5em; 
+}
+
+.quote .quote-author {
+  text-align: right;
+  font-size: 1.25em;
+}
+
+footer.navbar {
+  margin-top: 3em;
+  margin-bottom: 0px;
 }
