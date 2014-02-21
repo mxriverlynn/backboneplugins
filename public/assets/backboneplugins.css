@@ -33,6 +33,19 @@ a.navbar-brand {
   margin: 4em 5em;
 }
 
+.introduction .check-list i {
+  color: #090;
+}
+
+.introduction .guarantee img.arrow {
+  margin-top: 2em;
+}
+
+.introduction .guarantee p {
+  background-color: #fff;
+  text-align: center
+}
+
 .introduction .get-the-book {
   padding-left: 2em;
   padding-right: 2em;
