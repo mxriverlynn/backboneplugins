@@ -20,16 +20,19 @@ block javascript
 block content
   .container
 
-    include _section-one
+    include _intro
+
+    a(name="features")
+    include _features
+
+    a(name="story")
+    include _story
 
     a(name="content")
-    include _section-two
-
-    a(name="history")
-    include _section-three
+    include _content
 
     a(name="reviews")
-    include _section-four
+    include _reviews
 
     a(name="buynow")
-    include _section-five
+    include _buynow

@@ -79,8 +79,7 @@ a.navbar-brand {
 }
 
 .author-bio {
-  margin: 0em 3em 1em 3em;
-  text-align: center;
+  margin-top: 1em;
 }
 
 .author-bio img {
@@ -97,11 +96,13 @@ a.navbar-brand {
 }
 
 .quote .quote-body {
+  margin-top: 2em;
   font-size: 1.25em; 
 }
 
 .quote .quote-author {
   text-align: right;
+  margin-top: 1em;
   font-size: 1.25em;
 }
 
