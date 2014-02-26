@@ -87,17 +87,16 @@ a.navbar-brand {
 }
 
 .quote {
-  margin-bottom: 2em;
-}
-
-.quote .quote-title {
-  font-size: 1.5em; 
-  font-weight: bold;
+  margin-bottom: 4em;
 }
 
 .quote .quote-body {
   margin-top: 2em;
   font-size: 1.25em; 
+}
+
+.quote .quote-body:first-child {
+  margin-top: 0em;
 }
 
 .quote .quote-author {
