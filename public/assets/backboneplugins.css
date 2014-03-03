@@ -115,11 +115,16 @@ a.navbar-brand {
   border: 1px solid #bbb;
 }
 
+.purchase img.screencast {
+  margin: 2px;
+  width: 70px;
+}
+
 .purchase.preferred {
-  height: 650px;
+  height: 700px;
   border: 2px solid #070;
   background-color: #efe;
-  margin-top: 25px;
+  margin-top: 0px;
 }
 
 .purchase h3 {
