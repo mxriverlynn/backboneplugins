@@ -34,6 +34,10 @@ a.navbar-brand {
   font-weight: normal;
 }
 
+.introduction {
+  margin-top: 7em;
+}
+
 .introduction .check-list {
   margin: 4em 5em;
 }
@@ -106,13 +110,13 @@ a.navbar-brand {
 }
 
 .purchase {
-  height: 500px;
+  height: 600px;
   margin-top: 50px;
   border: 1px solid #bbb;
 }
 
 .purchase.preferred {
-  height: 550px;
+  height: 650px;
   border: 2px solid #070;
   background-color: #efe;
   margin-top: 25px;
