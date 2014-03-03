@@ -116,15 +116,15 @@ a.navbar-brand {
 }
 
 .purchase img.screencast {
-  margin: 2px;
-  width: 70px;
+  margin: 10px;
+  width: 75px;
 }
 
 .purchase.preferred {
-  height: 700px;
+  height: 650px;
   border: 2px solid #070;
   background-color: #efe;
-  margin-top: 0px;
+  margin-top: 25px;
 }
 
 .purchase h3 {
@@ -154,6 +154,7 @@ a.navbar-brand {
 
 .purchase .buy-button a {
   width: 225px;
+  font-size: 1.3em;
 }
 
 .purchase.preferred .buy-button a {
